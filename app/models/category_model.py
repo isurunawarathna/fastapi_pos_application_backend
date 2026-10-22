@@ -1,10 +1,9 @@
-
+from typing import TYPE_CHECKING
 from app.core import Base
 from sqlalchemy.orm import Mapped, mapped_column,relationship
 from sqlalchemy import Integer, String, Text, Boolean
 
 from app.models import Product
-
 
 class Category(Base):
 
