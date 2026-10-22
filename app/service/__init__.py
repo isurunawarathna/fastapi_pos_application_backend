@@ -1,0 +1,1 @@
+from app.service.products_service import ProductService
